@@ -87,6 +87,10 @@ h2 {
     font-size: calc(30px + 2vw);
 }
 
+.hi h2 {
+    font-size: calc(30px + 2vw);
+}
+
 .hi img {
     height: 0.7em;
     padding-bottom: 0.12em;
