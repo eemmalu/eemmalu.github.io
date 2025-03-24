@@ -74,41 +74,22 @@ h2 {
     margin-bottom: 5vw; 
 }
 
-.hi-carousel {
+.hi {
     margin-top: 5vw;
     margin-bottom: 3vw;
     overflow: hidden;
-}
-
-.hi-carousel .carousel-inner {
-    width: max-content;
-    display: flex;
     flex-wrap: nowrap;
-    animation: move 4s linear infinite;
-}
-
-.carousel-inner div {
+    width: max-content;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 5px;
-}
-
-.carousel-inner h2 {
     font-size: calc(30px + 2vw);
 }
 
-.carousel-inner div img {
-    height: 1.8em;
-}
-
-@keyframes move {
-    0% {
-        transform: translate(0%);
-    }
-    100% {
-        transform: translate(-20%);
-    }
+.hi img {
+    height: 0.7em;
+    padding-bottom: 0.12em;
 }
 
 .section {
